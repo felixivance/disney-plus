@@ -10,31 +10,24 @@ function ImageSlider() {
         speed: 600,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay:true
+        autoplay:true,
+        className:'carousel'
       };
 
     return (
         <div className="pt-5">
-            <Slider {...settings}>
+            <Slider {...settings} className="overflow-visible" >
                 {/* wrap */}
-                <div>
-                    <img src="/images/slider-badging.jpg" className="w-[100%] h-[100%] rounded-md shadow-md " />
+                <div className="cursor-pointer">
+                    <img src="/images/slider-badging.jpg" className="w-[100%] h-[100%] rounded-md shadow-md border-4 border-solid border-transparent
+                    hover:border-white hover:border transition duration-300" />
                 </div>
-                <div>
-                    <img src="/images/slider-badag.jpg" className="w-[100%] h-[100%] rounded-md" />
+                <div className="cursor-pointer">
+                    <img src="/images/slider-badag.jpg" className="w-[100%] h-[100%] rounded-md shadow-md border-4 border-solid border-transparent
+                    hover:border-white hover:border transition duration-300" />
                 </div>
-                <div>
-                    <h3>3</h3>
-                </div>
-                <div>
-                    <h3>4</h3>
-                </div>
-                <div>
-                    <h3>5</h3>
-                </div>
-                <div>
-                    <h3>6</h3>
-                </div>
+                
+               
         </Slider>
         </div>
     )
