@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .homeContainer{
+        height: calc(100vh - theme('spacing.16'));
+        padding: 0 calc(3.5vw + 5px);
+        background : #040714;
+        color:white;
+       
+        
+    }
+   
+}
