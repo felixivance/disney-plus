@@ -1,8 +1,8 @@
 function Main() {
     return (
-        <div>
-            <p>Home</p>
-        </div>
+        <main className="homeContainer bg-home-img bg-center bg-cover bg-no-repeat bg-fixed inset-0 -z-1 ">
+                <p className="">Image Slider</p>
+        </main>
     )
 }
 
