@@ -1,4 +1,5 @@
 import ImageSlider from "./ImageSlider"
+import Movies from "./Movies"
 import Viewers from "./Viewers"
 
 function Main() {
@@ -7,6 +8,7 @@ function Main() {
             <ImageSlider />
 
             <Viewers/>
+            <Movies />
         </main>
     )
 }
