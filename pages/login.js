@@ -18,12 +18,12 @@ function login() {
 
                 {/* content */}
                 <div className="flex flex-col  h-full   ">
-                    <div className="mt-32 pl-5 pr-5">
+                    <div className="mt-32 pl-20 pr-20 ">
                        
-                        <img src="/images/cta-logo-one.svg" alt="" />
+                        <img src="/images/cta-logo-one.svg" className="" alt="" />
                         
-                         <div className="pt-5 ">
-                            <button className="font-semibold bg-blue-600 p-5 rounded-md w-full tracking-wide"> GET ALL THERE </button>
+                         <div className="pt-5 cursor-pointer">
+                            <button className="font-semibold bg-blue-600 p-5 rounded-md w-full tracking-wide hover:bg-blue-700 "> GET ALL THERE </button>
                         </div>
                         <p className="pt-5 leading-5 tracking-wide font-mono text-center">Join to watch exclusive shows on disney plus. And more beautiful description..
                          Lol sijui niongezee nini apa ndio ikae original</p>
