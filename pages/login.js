@@ -12,9 +12,9 @@ function login() {
          <Header/>
          <div className="homeContainer bg-home-img bg-center bg-cover bg-no-repeat bg-fixed inset-0 -z-1">
 
-            <div className="relative h-full">
+            <div className="relative h-full w-full">
                 {/* main */}
-                <img className="h-screen object-cover md:object-fill fixed top-16  left-0 bottom-0 right-0 opacity-[0.3] " src="/images/login-background.jpg" alt="" />
+                <img className="h-full object-cover md:object-fill fixed top-16  left-0 bottom-0 right-0 opacity-[0.3] " src="/images/login-background.jpg" alt="" />
 
                 {/* content */}
                 <div className="flex flex-col  h-full   ">
@@ -22,8 +22,8 @@ function login() {
                        
                         <img src="/images/cta-logo-one.svg" className="" alt="" />
                         
-                         <div className="pt-5 cursor-pointer">
-                            <button className="font-semibold bg-blue-600 p-5 rounded-md w-full tracking-wide hover:bg-blue-700 "> GET ALL THERE </button>
+                         <div className="pt-5 ">
+                            <button className="font-semibold bg-blue-600 p-5 rounded-md w-full tracking-wide "> GET ALL THERE </button>
                         </div>
                         <p className="pt-5 leading-5 tracking-wide font-mono text-center">Join to watch exclusive shows on disney plus. And more beautiful description..
                          Lol sijui niongezee nini apa ndio ikae original</p>
