@@ -31,7 +31,7 @@ function Detail() {
                         </div>
                         {/* add button */}
                         <div>
-                            <PlusCircleIcon className="h-10 w-10 text-white" />
+                            <PlusCircleIcon className="h-10 w-10 text-white cursor-pointer" />
                         </div>
                         {/* group button */}
                         <div>
@@ -40,7 +40,7 @@ function Detail() {
 
                        
                     </div>
-                    <div className="font-mono pt-5">
+                    <div className="font-mono pt-7">
                         <p>Danny "The Mean Machine" Meehan (Vinnie Jones) is a retired footballer and former captain of England, who was banned from football for life for fixing an unspecified match they played against Germany. In the present day, after a long drinking session, he drives recklessly to a local bar, where he is pursued by police. Inside the bar, when asked to take a breathalyser test, he attacks two police officers and is arrested; he is later convicted and sentenced to three years in Longmarsh prison.</p>
                     </div>
                 </div>
